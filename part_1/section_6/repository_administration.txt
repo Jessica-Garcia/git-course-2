@@ -1,0 +1,22 @@
+Seção 6 - Administração de repositórios
+
+git clean -f => limpa os arquivos untracked, ou seja, limpa todos os arquivos que não 
+foram adicionados com o comando git add
+
+
+git gc => exclui arquivos que não são mais necessários, otimiza o repositório 
+em questões de performance
+
+
+git fsck => verifica a integridade dos arquivos e sua conectividade, 
+comando de rotina para verificar se está tudo certo com os arquivos ou se 
+há algum arquivo corrompido. Pode ser utilizado junto com o git gc uma vez 
+ao mês, por exemplo
+
+
+git reflog => exibe todos os passos dados no repositório: clone, commits, movimentos de 
+uma branch para outra… Geralmente exibe informações dos últimos 30 dias
+Esse comando possibilita visualizar o hash de algum commit ou comando 
+no qual cometemos algum erro o que nos permite que por meio do comando 
+git reset --hard hash_do_comando_que_se_quer_deletar, possamos retroceder ou 
+avançar nos estados do repositório.

@@ -1,0 +1,24 @@
+Seção 4 - Compartilhamento e atualização de repositórios
+
+-Encontrando branches que estão no repositório remoto
+
+O comando git fetch apresenta as branches enviadas remotamente por outros 
+desenvolvedores e ao trocar para essas branches utilizando o git checkout, 
+essas branches passam a fazer parte do nosso projeto também possibilitando o 
+envio de funcionalidades para elas
+
+git fetch -a => traz todas as branches que se encontram no repositório remoto as 
+quais ainda não se tem acesso
+
+*** Logo após esse comando deve-se executar o comando:
+
+git checkout nome_da_branch_que_foi_trazida_do_repo_remoto => para entrar na branch 
+trazida do repo remoto e para que ela apareça na lista de branches
+
+
+
+Recebendo alterações
+
+*** Sempre ter o cuidado de atualizar antes a branch com git pull quando começar o trabalho com ela
+
+***Sempre atualizar a branch master com git pull antes de criar uma branch a partir dela

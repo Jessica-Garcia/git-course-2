@@ -1,0 +1,72 @@
+comando:
+
+git pull - Para atualizar o repositório local com as mudanças do repositório remoto
+
+Faz uma busca por atualizações, que se encontradas serão unidas ao código 
+já existente na máquina
+
+
+
+Clonando repositórios=> git clone => aula 22 / seção 2
+
+
+
+git rm => git rm pasta/nome-do-arquivo - remove arquivos do projeto do git, 
+para ser salva e enviada a alteração de remoção de arquivo deve-se fazer,  
+em seguida, os comandos: 
+git commit -m “mensagem”
+git push
+
+
+git log -> trás o histórico dos commits
+
+
+git mv => move ou renomeia arquivos
+
+Movendo arquivo para uma outra pasta
+ => git mv nome-arquivo pasta-nova/nome-arquivo
+
+
+Movendo arquivo de uma pasta para uma outra pasta 
+=> git mv pasta-original/nome-arquivo pasta-nova/nome-arquivo
+
+Renomear o arquivo
+=> git mv pasta-original/nome-arquivo pasta-original/novo-nome
+
+Mover e renomear o arquivo
+=>git mv pasta-original/nome-arquivo-original pasta-nova/novo-nome-arquivo 
+
+
+Para desfazer todas as alterações feitas no arquivo, 
+retornar o arquivo para o estado em que estava no repositório remoto, 
+tirar o arquivo da área de staging, resetar o arquivo para como está no repo remoto,
+comando:
+
+git checkout pasta/nome-do-arquivo 
+
+
+-Ignorando arquivos no projeto
+
+Arquivos gerados automaticamente
+Arquivos de informação sensível
+
+
+Adicionar o arquivo .gitignore e escrever nele o nome da pasta ou dos arquivos que 
+deseja ignorar
+ex:
+
+npm_modules/*
+
+****Escrever no .gitignore o nome da pasta ou arquivo a ser ignorado antes 
+deles serem criados no projeto
+
+
+Para desfazer todas as alterações pendentes e as já commitadas localmente, mas não enviadas, 
+deixando a branch igual a do repositório remoto
+Partir do zero a partir de um branch, reseta para o último push
+comando: 
+
+git reset --hard nome-branch-que-quer-resetar
+
+Ex.:
+	git reset --hard origin/master

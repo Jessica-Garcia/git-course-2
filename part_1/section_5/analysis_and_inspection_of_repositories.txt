@@ -1,0 +1,17 @@
+Seção 5 - Análise e Inspeção de repositórios
+
+git show => apresenta informações e  detalhes de uma branch
+
+git diff => somente git diff exibe as diferenças entre a branch do repositório local e 
+a do repositório remoto
+
+git diff nome_de_uma_branch => vai exibir as diferenças entre o branch atual e a 
+branch cujo nome foi passado
+
+git diff HEAD:nome_do_arquivo_1  nome_do_arquivo_2 => exibe a diferença de código 
+entre o arquivo do repositóio remoto e o arquivo do repositório local
+
+
+Log resumido 
+
+git shortlog => resumo de informações do repositório
