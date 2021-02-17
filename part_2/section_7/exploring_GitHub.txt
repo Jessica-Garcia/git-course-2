@@ -1,0 +1,122 @@
+Seção 7 - explorando e entendendo o GitHub
+
+
+Criando um novo repositório no GitHub:
+
+- Escolher um nome bem descritivo para o projeto que especifique de que ele se trata
+
+- Colocar uma breve descrição do que é o projeto, quais linguagens serão usadas nele, etc.
+
+- Escolher Public caso seja um projeto para estudo, por exemplo, algo que possa ser 
+visualizado e acessado por outras pessoas.
+
+- Escolher Private caso seja um projeto de uma empresa ou uma ideia de um novo negócio, 
+algo que não deseja que seja visualizado ou acessado por outras pessoas a não ser 
+àquelas adicionadas como colaboradores
+
+- Adicionar um README, onde pode ser colocada uma descrição completa do projeto, 
+como rodar o projeto, os requisitos para rodar o projeto, etc.
+
+- Adicionar um .gitignore da linguagem ou framework com o qual será iniciado o projeto.
+
+- Escolher uma licença, geralmente a licença MIT é mais usada quando não se sabe ao 
+certo qual licença usar
+
+
+Aba Issue:
+
+- Pode-se criar tarefas ou relatar bugs do projeto
+
+- Issue deve ter uma label (para categorizar se é uma tarefa ou um bug por exemplo) e 
+também um responsável (determinar quem vai realizar a tarefa ou corrigir o bug, por exemplo)
+
+
+Criando uma issue
+
+- Deve-se colocar um título e uma descrição ( a descrição pode ser feita usando Markdown)
+
+-Adicionar um Assignees (o responsável pela tarefa) 
+
+- Escolher ou criar uma label
+
+- clicar em submit new issue para criá-la
+
+- Quando realizada a tarefa ou resolvido o problema deve-se fechar a Issue com um comentário
+
+
+
+Aba Pull request:
+
+Atualizando o projeto por pull request 
+
+
+- Após criar uma nova branch, concluir a tarefa proposta, adicionar, 
+commitar e enviar para o repositório remoto, deve-se:
+
+- Ir até a aba ‘Pull request’ no GitHub e 
+
+-Clicar em ‘New pull request’
+
+- Selecionar a branch que vai ser atualizada (o ‘base’, manter selecionado a master no ‘base’)
+ e selecionar a branch  a partir da qual virá a atualização 
+ (o compare, selecionar na ‘compare’ a branch da tarefa que acabou de ser enviada)
+
+- conferir o código
+
+- Clicar em ‘Create pull request’
+
+- Adicionar uma descrição do que está sendo enviado
+
+- Clicar em ‘Create pull request’
+
+- Será atribuição de outra pessoa, não do desenvolvedor,  analisar o pull request e enviar 
+as alterações para a master, mas caso haja conflitos, será de responsabilidade do desenvolvedor
+resolvê-los.
+
+Caso ocorram conflitos:
+
+-Clicar em ‘Resolve conflicts'
+
+- Executar alguma ação que resolva o conflito
+
+- Clicar em ‘Mark as resolved’
+
+- Clicar em ‘Commit merge’
+
+-Para que as alterações sejam enviadas, de fato, para a master, clicar em ‘Merge pull request’  
+e ‘Confirm merge’=> ESSES COMANDOS NÃO SÃO ATRIBUIÇÕES DO DESENVOLVEDOR
+
+
+Aba Wiki:
+
+
+- Serve para criar uma documentação mais extensa para o projeto que descreva funcionalidades,
+ bugs, andamento do projeto, etc.
+
+- Na aba Wiki clicar em ‘Create the first page’
+
+- O ideal é que a primeira página seja a Home, composta por como se quer apresentar as 
+outras páginas, como por exemplo, uma seção de funcionalidades e o link da página que 
+contém as funcionalidades, outra seção de bugs com o link da página que contém os bugs 
+conhecidos
+
+
+
+Aba Insights:
+
+- A aba Insights traz informações importantes sobre o projeto como contribuidores, commits,
+forks, etc.
+
+
+
+Aba Settings:
+
+- em Options pode-se trocar o nome, deletar, trocar visibilidade, entre outras configurações
+
+- Em Manage access, após digitar a senha, é possível adicionar um colaborador ao projeto
+
+- Em Security & analysis, pode-se verificar as vulnerabilidades do projeto
+
+- Em Branches é possível mudar o branch default
+
+Entre outras opções
