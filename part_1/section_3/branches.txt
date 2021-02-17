@@ -1,0 +1,43 @@
+Seção 3 - trabalhando com branches
+
+*Uma nova branch, salvo raras exceções, deve sempre ser criada a partir da branch master atualizada.
+
+-Visualizando e criando branches
+
+git branch => lista todas as branches que existem no projeto.
+
+git branch nome_da_branch_que_se_quer_criar => cria uma nova branch, mas permanece na branch atual, 
+não muda de branch, apenas cria uma nova.
+
+
+-Deletando branches
+
+git branch -d nome_da_branch=> apaga a branch
+
+
+-Criando e Mudando de branch
+
+
+***Sempre commitar alterações antes de mudar de branch
+
+*se mudar de branch antes de commitar as alterações é preciso voltar para a branch onde foram feitas 
+alterações e commitá-las para depois ir para outra branch.
+
+git checkout nome_da_branch => muda para a branch (que já existe) cujo o nome foi passado no comando
+
+Para criar uma branch e ao mesmo tempo mudar para ela:
+
+git checkout -b nome_da_branch_que_se_quer_criar_e_ir => cria uma nova branch e já vai para ela 
+
+
+-Unindo branches
+
+Dentro da branch que precisa ser atualizada digitar o comando 
+git merge nome_da_branch_com_as_atualizações_que_se_quer_pegar
+
+
+Fazer periodicamente dentro da branch que se está trabalhando um git merge da branch master atualizada
+
+
+Em um projeto real, não frazer um git merge dentro da master, não se deve atualizar a master diretamente pelo git, 
+deve-se apenas pegar atualizações da master.

@@ -1,0 +1,20 @@
+-Stash
+
+git stash => salva o código em uma espécie de “lixeira”, havendo possibilidade de recuperar este código depois, e reseta a branch para a versão anterior às modificações
+O comando git stash precisa ser feito antes de adicionar e commitar as alterações
+
+
+-Recuperando a stash
+
+git stash list => lista as stashes criadas 
+
+git stash apply número_da_stash => recupera o código salvo na stash em questão
+
+git stash show -p número_da_stash => mostra qual foi a alteração que foi guardada na stash
+
+
+-Removendo a stash
+
+git stash drop número_da_stash => apaga a stash cujo o número foi passado
+
+git stash clear => apaga todas as stashes criadas
