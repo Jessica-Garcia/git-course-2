@@ -1,0 +1,67 @@
+Seção 8: Markdown
+
+
+Criando títulos:
+
+Os cabeçalhos em markdown são determinados pelo símbolo #
+Eles funcionam como os títulos do HTML
+#  =  h1	##  =  h2	###  =  h3  e assim por diante
+
+
+
+Ênfase nos textos:
+
+
+Negrito => **texto**   ou   __texto__
+
+Itálico =>     *texto*     ou    _texto_
+
+Negrito e itálico =>  _texto  **texto**  texto_    ou    **texto _texto_ texto**
+
+
+
+Listas com Markdown:
+
+
+Listas não ordenadas => * item
+
+Listas ordenadas => 1. Item
+
+
+
+Inserindo imagens:
+
+Sintaxe para inserir imagens =>    ![Texto da imagem](Link da imagem)
+
+
+
+Inserindo Links:
+
+
+Sintaxe para inserir link =>     [Texto do link](Link do site)
+
+O Links do GitHub pode ser inserido de forma direta
+
+Pode-se inserir links através de imagens (será direcionado para o link ao clicar na imagem) =>
+[![texto da imagem](link da imagem)](link do site)
+
+
+
+Inserindo código fonte:
+ 
+(essa sintaxe de markdown para inserir código fonte é especial do GitHub)
+Deve-se inserir 3x o símbolo da crase antes e depois do código
+
+sintaxe=>  
+```nome da linguagem 
+ Código 
+```
+
+
+Inserindo lista de tarefas do projeto
+
+(essa sintaxe de markdown para inserir lista de tarefas é especial do GitHub)
+
+Para tarefas concluídas =>		- [x] tarefa concluída
+
+Para tarefas não concluídas =>	- [ ] tarefa não concluída
